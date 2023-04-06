@@ -1,0 +1,29 @@
+.nav {
+    background: linear-gradient(180deg, #6f00ff 20%, #000655 80%);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.menu_linha {
+  padding: 10px;
+  background-color: rgb(55, 11, 112);
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.menu_linha:hover {
+  transform: scale(1.1);
+  margin: 0 10px;
+  transition: 0.5s;
+}
